@@ -4,5 +4,6 @@ Systems Architect mock quiz[ https://www.classmarker.com/online-test/start/resul
 https://docs.pega.com/bundle/platform/page/platform/data-integration/data-management-integration.html
 
 * Low Code-Application development: https://docs-previous.pega.com/application-development/
+* Rules in Pega: https://docs-previous.pega.com/application-development/86/rules-pega-platform-applications
 
 
