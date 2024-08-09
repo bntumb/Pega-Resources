@@ -1,0 +1,740 @@
+questions:  [
+    {
+        "question": "A door manufacturer offers a finite list of colors on all its doors. As part of the order, customers can select the color of the door. Select the data page definition configuration settings to source a color drop-down list to minimize memory usage.",
+        "options": [
+            "A. Page, ACME-Products-Data-Color,ReadOnly,Node",
+            "B. List, ACME-Products-Data-Color,ReadOnly,Thread",
+            "C. Page, ACME-Products-Data-Color,ReadOnly,Requestor",
+            "D. List, ACME-Products-Work-Color,ReadOnly,Node",
+            "E. List, ACME-Products-Work-ColorFeedback,ReadOnly,Node",
+            "F. List, ACME-Products-Data-Color,ReadOnly,Node"
+        ],
+        "answer": "F",
+    },
+    {
+        "question": "A Declare expression evaluates a circumstanced decision tree. The decision tree evaluates a property set by a data transform. What two steps do you perform to ensure that the decision tree is configured properly?",
+        "options": [
+            "A. Test the declare expression to verify that the rule is configured correctly",
+            "B. Configure a test page with data to satisfy the circumstancing condition",
+            "C. Specify the value of the circumstancing property when prompted in the run rule dialog",
+            "D. Test the data transform to verify the result is correct"
+        ],
+        "answer": "A, B",
+    },
+    {
+        "question": "A bookseller maintains a database of more than 10,000 book titles. You have been asked to configure a form that allows users to select a book by title. How do you configure the form?",
+        "options": [
+            "A. Add a drop-down control and source the data from the property value used in the control.",
+            "B. Add a drop-down control and source the data using a data page.",
+            "C. Add an autocomplete control and source the data using a data page.",
+            "D. Add an autocomplete control and source the data from the clipboard work page."
+        ],
+        "answer": "C",
+    },
+    {
+        "question": "A business architect has developed a new process for a case type. To verify that the UI elements collect the expected results, you want to test the process and the fields. Which two configurations, when used together, allow you to record a set of interactions and save the test result to verify process functionality?",
+        "options": [
+            "A. Create a unit test for the case type.",
+            "B. Create a scenario test for the case type.",
+            "C. Add explicit assertions on the UI elements.",
+            "D. Add explicit assertions on the Scenario testing landing page."
+        ],
+        "answer": "B, C",
+    },
+    {
+        "question": "A car insurance quote requires a view for potential customers to enter information to process the request. What are two primary decisions to make before you add fields to the view?",
+        "options": [
+            "A. Is field entry required?",
+            "B. Are processing actions applied to the field?",
+            "C. Does the field require a data source?",
+            "D. How do users enter values into the field?"
+        ],
+        "answer": "A, D",
+    },
+    {
+        "question": "A case type for voice-over requests includes two tasks: Edit Script and Record Script. Your team has been asked to route Edit Script tasks to editors and Record Script tasks to actors. Which approach fulfills this requirement?",
+        "options": [
+            "A. Create two new work queues, one for editors and one for actors.",
+            "B. Create one new work queue and split the tasks by type.",
+            "C. Create one work group for both personas and route to the work group.",
+            "D. Create two new work groups in Dev Studio that reference one work queue."
+        ],
+        "answer": "A",
+    }
+,    {
+        "question": "A company often receives multiple IT tickets for the same issue, such as 'the office Wi-Fi is down.Youconfigure Search duplicate cases step to identify duplicate IT tickets. What is the basic condition for the Search duplicate cases step?",
+        "options": [
+
+                    "A. Name of submitter is same",
+                    "B. Issue type is same",
+                    "C. Department is same",
+                    "D. Office location is same",
+        ],
+        "answer": "B",
+
+    },
+
+
+
+
+{
+        "question": "What is the purpose of a data transform in a Pega application?",
+        "options": [
+            "A. To map and manipulate data.",
+            "B. To validate data.",
+            "C. To set up UI controls.",
+            "D. To configure security policies."
+        ],
+        "answer": "A",
+        "explanation": "Data transforms are used to set default values for properties and to map and manipulate data during the case lifecycle."
+    },
+    {
+        "question": "Which statement best describes the role of a data transform in a Pega application?",
+        "options": [
+            "A. A data transform maps and manipulates data.",
+            "B. A data transform is used to validate data.",
+            "C. A data transform sets up UI controls.",
+            "D. A data transform configures security policies."
+        ],
+        "answer": "A",
+        "explanation": "Data transforms are primarily used to map and manipulate data within a Pega application, making them essential for data handling."
+    },
+    {
+        "question": "You are designing a new Pega application that will be used by a global organization. Which two factors should you consider when configuring the localization settings?",
+        "options": [
+            "A. Language and locale.",
+            "B. Currency and time zone.",
+            "C. Security and access.",
+            "D. Performance and scalability."
+        ],
+        "answer": "A, B",
+        "explanation": "When configuring localization settings in a global application, it’s crucial to consider language and locale for translation purposes, as well as currency and time zone to ensure accurate data handling across different regions."
+    },
+    {
+        "question": "You are designing a Pega application that needs to integrate with an external system. Which rule type should you use to define the connection?",
+        "options": [
+            "A. Service rule.",
+            "B. Connector rule.",
+            "C. Activity rule.",
+            "D. Data page."
+        ],
+        "answer": "B",
+        "explanation": "Connector rules in Pega are used to define how the application integrates with external systems, including the configuration of connection parameters and data mapping."
+    },
+    {
+        "question": "You are designing a report that needs to display data from multiple case types in a Pega application. How can you accomplish this?",
+        "options": [
+            "A. Create a report definition that joins the data from multiple classes.",
+            "B. Use a declare expression to calculate the data.",
+            "C. Use a data transform to aggregate the data.",
+            "D. Create a data page that sources data from multiple case types."
+        ],
+        "answer": "A",
+        "explanation": "Creating a report definition that joins data from multiple classes allows you to display information from different case types within a single report, providing a comprehensive view of related data."
+    },
+    {
+        "question": "You are designing an application that will be used by customers in different countries. How do you ensure that the application displays the correct currency based on the user's location?",
+        "options": [
+            "A. Configure a field value for each currency.",
+            "B. Use a data transform to set the currency.",
+            "C. Use a declare expression to calculate the currency.",
+            "D. Configure localization settings to support multiple currencies."
+        ],
+        "answer": "D",
+        "explanation": "Localization settings in Pega can be configured to support multiple currencies, ensuring that the correct currency is displayed based on the user's location."
+    },
+    {
+        "question": "You are designing the initial data model for a Pega application. Which approach should you use to identify the properties needed?",
+        "options": [
+            "A. Review the case types and user stories.",
+            "B. Identify the required data sources.",
+            "C. Analyze the integration points.",
+            "D. Create the UI design first."
+        ],
+        "answer": "A",
+        "explanation": "The most effective approach to identifying the necessary properties in a data model is to review the case types and user stories, which outline the application's functional requirements and data needs."
+    },
+    {
+        "question": "You are implementing a Pega application for an organization that operates in multiple regions with different regulatory requirements. How can you ensure that the application meets each region's requirements?",
+        "options": [
+            "A. Use the situational layer cake design pattern.",
+            "B. Create separate case types for each region.",
+            "C. Implement multiple rule sets for each region.",
+            "D. Create custom validation rules for each region."
+        ],
+        "answer": "A",
+        "explanation": "The situational layer cake design pattern allows you to tailor the application’s behavior based on different conditions such as region, customer type, or channel, ensuring compliance with regional regulatory requirements."
+    },
+    {
+        "question": "You are implementing a Pega application that needs to send email notifications to users. How can you configure the application to send these notifications?",
+        "options": [
+            "A. Use a correspondence rule.",
+            "B. Use a service level agreement.",
+            "C. Use a validate rule.",
+            "D. Use a data transform."
+        ],
+        "answer": "A",
+        "explanation": "A correspondence rule in Pega is used to define the content and conditions for sending email notifications to users, making it the correct choice for this requirement."
+    },
+    {
+        "question": "You are tasked with configuring a repeating grid to display a list of items in a Pega application. Which feature allows you to define the columns in the grid?",
+        "options": [
+            "A. The grid’s properties panel.",
+            "B. A section rule.",
+            "C. A data transform.",
+            "D. A field value."
+        ],
+        "answer": "A",
+        "explanation": "The grid’s properties panel allows you to define the columns and their configurations, making it the correct choice for setting up a repeating grid in Pega."
+    },
+    {
+        "question": "A form must support accessibility. How do you enable a user to specify a date?",
+        "options": [
+            "A. Configure a text box to allow date entry.",
+            "B. Use a calendar control that displays an entire year.",
+            "C. Use a calendar control that displays an entire month.",
+            "D. Provide separate controls for month, day, and year."
+        ],
+        "answer": "C",
+        "explanation": "To ensure a form supports accessibility, especially when enabling a user to specify a date, using a calendar control that displays an entire month is the most accessible and user-friendly method for date selection."
+    },
+    {
+        "question": "A government application provides field placeholder values to help users enter the correct data. The Design Lead has asked you to increase the font size on all field placeholder value components to help visually impaired users. Which configuration applies the font styling requirement on the field placeholder values in the application?",
+        "options": [
+            "A. Update the existing Default theme text entry.",
+            "B. Run a case type that uses the component and change the font on the view.",
+            "C. Add a new theme text entry to the application theme.",
+            "D. Upload a new application theme."
+        ],
+        "answer": "C",
+        "explanation": "To increase the font size on all field placeholder value components specifically to aid visually impaired users, applying global styling changes is the most effective approach. Adding a new theme text entry to the application theme allows for targeted styling adjustments to be applied broadly across the application."
+    },
+    {
+        "question": "A home loan application requires approvals from the Legal team manager and the Finance team manager. The Legal team manager must approve before the Finance team manager. How do you configure this requirement?",
+        "options": [
+            "A. Create an approval process for each manager in parallel.",
+            "B. Apply business logic to route a single assignment in the correct order.",
+            "C. Create an approval step with cascading approval.",
+            "D. Route an assignment to a work queue where both roles have access."
+        ],
+        "answer": "C",
+        "explanation": "For a home loan application that requires sequential approvals from the Legal team manager followed by the Finance team manager, setting up a process that enforces this order is crucial. Cascading approvals enforce the necessary sequence while streamlining the process, ensuring that the case progresses in the correct order without manual intervention or complex routing logic."
+    },
+    {
+        "question": "A hotel booking application allows customers to change rooms after making a reservation. Each room's status in each hotel is stored on a data page sourced from an external database table. Which two configuration options, when applied in combination, do you use to update the database table when a customer changes rooms? (Choose Two)",
+        "options": [
+            "A. A savable data page that contains the room information.",
+            "B. A when rule to trigger the database update.",
+            "C. A data transform to copy updates to the data page.",
+            "D. An editable data page that contains the room information."
+        ],
+        "answer": "A, C",
+        "explanation": "In a hotel booking application where room status updates need to be reflected in an external database, the combination of a savable data page and a data transform is a powerful configuration for facilitating updates."
+    },
+    {
+        "question": "A human resources application contains reports that are used to review hiring practices. The product manager has asked you to test the recent hire training report. How do you run a unit test on the report?",
+        "options": [
+            "A. Create a copy of the rule and use the Report Browser.",
+            "B. Use the Report Browser to preview the report results.",
+            "C. Use the Run icon on the report definition rule.",
+            "D. Access the report through the Designer Studio and review the output."
+        ],
+        "answer": "B",
+        "explanation": "Using the Report Browser allows you to preview and test the report results to ensure accuracy and meet the product manager’s requirements for reviewing hiring practices."
+    },
+    {
+        "question": "A manager needs to be notified every time an employee submits an expense report. How do you configure this notification?",
+        "options": [
+            "A. Set up a case type that triggers an email notification.",
+            "B. Configure a workflow to send an email to the manager.",
+            "C. Create a business rule to trigger an email notification.",
+            "D. Set up a correspondence rule to handle email notifications."
+        ],
+        "answer": "D",
+        "explanation": "To ensure the manager receives a notification every time an employee submits an expense report, a correspondence rule is used to configure and send the necessary email notifications based on the submission events."
+    },
+    {
+        "question": "A system administrator needs to configure a new role for a Pega application. Which rule type should be used to define the role's access?",
+        "options": [
+            "A. Access role.",
+            "B. Access group.",
+            "C. Access control.",
+            "D. Access role instance."
+        ],
+        "answer": "B",
+        "explanation": "An Access Group rule defines the roles and access permissions for users in a Pega application. It is used to configure which roles are assigned to a user and what they can access."
+    },
+    {
+        "question": "A customer service application needs to display a summary of case details in a dashboard. What rule type should you use to define this summary?",
+        "options": [
+            "A. Report Definition.",
+            "B. Data Page.",
+            "C. Section Rule.",
+            "D. Dashboard Rule."
+        ],
+        "answer": "A",
+        "explanation": "A Report Definition rule is used to create and configure summaries of case details, which can then be displayed in a dashboard to provide a comprehensive overview of the case information."
+    },
+    {
+        "question": "You are designing a Pega application that requires users to input data in a specific format. How can you enforce the data format requirements?",
+        "options": [
+            "A. Use a validate rule to enforce the data format.",
+            "B. Configure a data transform to handle data formatting.",
+            "C. Apply a field-level property constraint.",
+            "D. Implement a UI control that restricts input formats."
+        ],
+        "answer": "A",
+        "explanation": "A validate rule is used to enforce specific data format requirements by defining validation logic that ensures users input data correctly according to the predefined format."
+    }, {
+        "question": "You are creating a new case type that should have a unique identifier for each case. How can you ensure that each case receives a unique identifier?",
+        "options": [
+            "A. Use a case ID property with a unique index.",
+            "B. Configure a unique ID generator in the case type settings.",
+            "C. Implement a unique identifier rule.",
+            "D. Use an auto-generated field for case IDs."
+        ],
+        "answer": "B",
+        "explanation": "Configuring a unique ID generator in the case type settings ensures that each case receives a unique identifier, which is essential for distinguishing and tracking individual cases."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "question": "A requirement for a hotel reservation case type states that as customers change their room selection, the total cost of the reservation updates. How do you satisfy this requirement?",
+        "options": [
+            "A. Configure a Validate rule for the room selection step.",
+            "B. Apply a Disable when condition to the total cost field.",
+            "C. Add a When condition to the room selection step.",
+            "D. Define a declare expression for the total cost field."
+        ],
+        "answer": "D",
+        "explanation": "To meet the requirement that the total cost of a hotel reservation updates as customers change their room selection, using a declare expression is the most effective approach. A declare expression allows for the automatic calculation of the total cost field whenever related properties, such as room selection, change. This setup ensures that the total cost reflects the current room selection dynamically, providing an updated cost to the customer without manual intervention."
+    },
+    {
+        "question": "A requirement states When a customer applies for a credit card, a credit check must be completed in order for the credit card to be approved. Select the case type relationship that satisfies the requirement.",
+        "options": [
+            "A. Make both loan request and credit check top cases.",
+            "B. Make credit check a spin-off case of credit card request.",
+            "C. Make credit check a child case of credit card request.",
+            "D. Make credit card request a child case of credit check."
+        ],
+        "answer": "C",
+        "explanation": "For the requirement that a credit check must be completed for a credit card to be approved, incorporating the credit check as part of the credit card application process is necessary. The most straightforward way to model this is by using case type relationships. Making the credit check a child case of credit card request establishes it as an integral step within the credit card request process, ensuring that the credit check is completed before the credit card can be approved."
+    },
+    {
+        "question": "A requirement states: A customer can update an address at any point during case processing by performing the following steps. 1. The customer submits the new address. 2. The application verifies that the address matches postal service requirements. 3. The customer then approves the corrected address. How do you configure this requirement?",
+        "options": [
+            "A. Add a case-wide optional action to the workflow for the address submission.",
+            "B. Add a case-wide optional process to the case workflow to perform the address change.",
+            "C. Add an alternate stage to the case life cycle to change the address.",
+            "D. Add a button to each assignment to present the customer with a form to submit a new address."
+        ],
+        "answer": "A",
+        "explanation": "To configure the requirement that allows a customer to update their address at any point during case processing, including submission, verification, and approval of the new address, an approach that provides flexibility and accessibility throughout the case lifecycle is needed. Adding a case-wide optional action enables the address update functionality to be accessible at any stage of the case processing."
+    },
+    {
+        "question": "A requirement states: Loan applicants must enter their annual salary. If the salary is above the qualifying threshold, the application is automatically approved. If the salary is below the threshold, the applicant must identify a cosigner. Select the two configuration options that follow best practices to meet the requirement. (Choose Two)",
+        "options": [
+            "A. Design a user view with an annual salary field and a data relationship for cosigner information. Use a visibility condition to display the cosigner information when the salary is below the threshold.",
+            "B. Use a collect information step with an annual salary field. Use a decision shape to determine whether to advance to a step to enter cosigner information or complete the process.",
+            "C. Design a user view with an annual salary field. Create an optional action to collect information about the cosigner and assign the action to the appropriate stage.",
+            "D. Create an assignment step for a loan officer to review the applicant's annual salary and determine if a cosigner is necessary."
+        ],
+        "answer": "A, B",
+        "explanation": "To meet the requirement that loan applicants must enter their annual salary and that the application process diverges based on whether the salary is above or below a qualifying threshold, the configuration options chosen must efficiently manage the conditional logic and user interaction. Designing a user view with an annual salary field and using a visibility condition (A) ensures that additional cosigner information is requested only when necessary. Using a collect information step with a decision shape (B) dynamically directs the flow based on the salary entered, either approving the application or requesting cosigner details."
+    },
+    {
+        "question": "A requirement states: The date of birth submitted for first grade students must be at least five years before September 1 of the current year. Which three validation methods, when applied in combination, satisfy the requirement? (Choose Three)",
+        "options": [
+            "A. When rule",
+            "B. Calendar control",
+            "C. Date data type",
+            "D. Validation rule",
+            "E. Edit validate rule"
+        ],
+        "answer": "A, D, E",
+        "explanation": "To ensure that the date of birth submitted for first-grade students meets the requirement of being at least five years before September 1 of the current year, a combination of validation methods is necessary. Using a When rule (A) helps determine if the date of birth satisfies the age condition. A Validation rule (D) defines broader validation criteria, and an Edit validate rule (E) allows for pattern-based or more complex checks to ensure the student is eligible based on age."
+    },
+    {
+        "question": "A requirement states: The tax identification number must contain 10 digits. How do you configure the field to support this requirement?",
+        "options": [
+            "A. Set the minimum and maximum values to '10' in a text field",
+            "B. Use an edit validate rule that validates the tax identification number pattern.",
+            "C. Use a decimal property type and make the field required.",
+            "D. Configure a validate rule to test the tax identification number pattern."
+        ],
+        "answer": "B",
+        "explanation": "To ensure the tax identification number contains exactly 10 digits, configuring an edit validate rule (B) is essential. This rule type enforces specific patterns or formats, ensuring that only values matching the 10-digit pattern are accepted. Setting minimum and maximum values in a text field (A) does not enforce numeric patterns. A decimal property type (C) does not restrict the number of digits, and a validate rule (D) is less specific than an edit validate rule for pattern enforcement."
+    },
+    {
+        "question": "A requirement states: When a business guest checks out of a hotel, the guest must complete a hotel review to receive a corporate discount. Select the case type relationship that satisfies the requirement.",
+        "options": [
+            "A. Configure hotel review as a spin-off case of the checkout request.",
+            "B. Configure checkout request as a child case of hotel review.",
+            "C. Configure both checkout request and hotel review as top-level cases.",
+            "D. Configure hotel review as a child case of the checkout request."
+        ],
+        "answer": "D",
+        "explanation": "To satisfy the requirement that a business guest must complete a hotel review to receive a corporate discount at checkout, configuring the hotel review as a child case of the checkout request (D) is appropriate. This configuration ensures that the review process is integral to the checkout process and must be completed before the corporate discount is applied."
+    },
+    {
+        "question": "A reservation process allows customers to reserve a flight, hotel room, and rental car as part of a travel itinerary. Which configuration displays a check box to allow users to select travel insurance only if the itinerary includes a flight?",
+        "options": [
+            "A. A visible when condition applied to the check box",
+            "B. An action set applied to the check box",
+            "C. A declare expression configured for forward chaining",
+            "D. A validate rule applied to the flow action"
+        ],
+        "answer": "A",
+        "explanation": "To display a check box for travel insurance only if the itinerary includes a flight, a Visible When condition (A) should be applied to the check box. This configuration dynamically controls the visibility of the insurance option based on whether a flight is included in the itinerary."
+    },
+    {
+        "question": "A restaurant has a case type that allows customers to book the dining room for events. Customers provide basic information including party size and indicate whether they want the restaurant to cater the event. If catering is not required, customers are given a rental rate quote. If customers indicate that they want the restaurant to cater the event, they must provide menu preference and schedule an appointment to do menu testing before they are given a quote. Which two options do you use to configure the case type to achieve the requested behavior? (Choose Two.)",
+        "options": [
+            "A. Create a check box for customers to indicate whether they want the restaurant to cater the event. Add a decision shape that evaluates whether the customer checks the box.",
+            "B. Create a check box for customers to indicate whether they want the restaurant to cater the event. Configure the menu preferences and appointment date fields with a visibility condition.",
+            "C. Create a process for providing menu preference and scheduling the menu tasting appointment. Create a parallel process for providing the customer with the rental rate quote.",
+            "D. Create a process for customers to indicate menu preference and schedule the menu tasting appointment. Add the process as a subcase of the main case type."
+        ],
+        "answer": "A, B",
+        "explanation": "To configure the case type for a restaurant booking that accommodates catering preferences, options A and B are effective. Creating a check box and using a decision shape (A) evaluates whether catering is required and adjusts the process accordingly. Configuring visibility conditions for the menu preferences and appointment fields (B) ensures that these fields are displayed only if catering is selected. This approach maintains clarity and streamlines the booking process."
+    },
+
+
+{
+    "question": "A business architect has developed a new process for a case type. To verify that the UI elements collect the expected results, you want to test the process and the fields. Which two configurations, when used together, allow you to record a set of interactions and save the test result to verify process functionality?",
+    "options": [
+        "A. Create a unit test for the case type.",
+        "B. Create a scenario test for the case type.",
+        "C. Add explicit assertions on the UI elements.",
+        "D. Add explicit assertions on the Scenario testing landing page."
+    ],
+    "answer": "B, C",
+    "explanation": "Creating a scenario test allows for end-to-end process simulation, and adding explicit assertions ensures UI elements behave and capture data as intended, providing comprehensive testing and verification."
+},
+{
+    "question": "A retail store wants an application to process a new customer loyalty account. The customer enters their contact information; including name, email, phone number, and address. This information is displayed in a data relationship. What type of data relationship do you create?",
+    "options": [
+        "A. A Data reference field",
+        "B. An Embedded data field",
+        "C. A Case reference field",
+        "D. A Query field"
+    ],
+    "answer": "B",
+    "explanation": "An Embedded data field allows the contact information to be structured as part of the case data, ensuring it is directly associated with each loyalty account case, facilitating data management and access within the application's data model."
+},
+{
+    "question": "A stakeholder prefers to group a set of existing actions into a multistep form. Which work item do you create in Agile workbench to address this change request?",
+    "options": [
+        "A. Bug",
+        "B. Feedback",
+        "C. Status",
+        "D. User Story"
+    ],
+    "answer": "D",
+    "explanation": "A User Story captures the stakeholder's preference for a multistep form and allows for the clear articulation of the request, facilitating prioritization and implementation during the development cycle."
+},
+{
+    "question": "A survey is sent to a customer via email. How do you configure a solution to ensure the email includes the case ID for the survey?",
+    "options": [
+        "A. Create a required field for the case ID that must be entered by a user during the case process prior to sending the survey.",
+        "B. Call a data transform to copy the case ID from pyWorkPage to the email.",
+        "C. Create a process using the Send Email step allowing representatives to quickly add the case ID to the email.",
+        "D. Use the Insert Property feature of a Send Email step to add the case ID when composing the message dialog."
+    ],
+    "answer": "D",
+    "explanation": "The Insert Property feature allows the dynamic insertion of the case ID directly into the email content, ensuring that the email is personalized with case-specific information."
+},
+{
+    "question": "A travel authorization requires approvals from the requestor's manager, division VP, and possibly an accountant based on the total amount. Which configuration satisfies this use case?",
+    "options": [
+        "A. Cascading approval using when rules to identify the assigned user",
+        "B. Cascading approval using the reporting manager",
+        "C. Cascading approval using an authority matrix",
+        "D. Cascading approval using the workgroup manager"
+    ],
+    "answer": "C",
+    "explanation": "Cascading approval using an authority matrix allows for the definition of approval levels and conditions, accommodating complex hierarchies and conditional logic required for this use case."
+},
+{
+    "question": "A user view includes a list of four urgency options selectable by radio buttons. How do you configure the selection list?",
+    "options": [
+        "A. Configure a field group with selectable urgency options.",
+        "B. Configure a drop-down field with selectable urgency options.",
+        "C. Configure a picklist with radio buttons for the urgency options.",
+        "D. Configure a Boolean field with selectable urgency options."
+    ],
+    "answer": "C",
+    "explanation": "A picklist with radio buttons effectively presents discrete choices, ensuring only one urgency option can be selected at any time."
+},
+{
+    "question": "ABC BankCorp operates two subsidiaries, GloboBank and LocalBank, with different brandings. ABC BankCorp wants to create a mobile app experience for both users and customer service representatives (CSRs) for its Transaction Dispute application. Which two options affect the number of mobile app channels that you need to configure? (Choose Two)",
+    "options": [
+        "A. Mobile apps must support both phones and tablets.",
+        "B. Customers can create only dispute cases, while CSRs can also create fraud report cases.",
+        "C. Mobile app color palette is customized for each subsidiary.",
+        "D. The app customizes currency units and date/time format according to the user's locale."
+    ],
+    "answer": "B, C",
+    "explanation": "Different functionalities for CSRs and distinct branding for each subsidiary necessitate separate mobile app channels to accommodate these differences."
+},
+{
+    "question": "ABC BankCorp wants to create a mobile app experience for users and CSRs for its Transaction Dispute application. Of the following requirements, which option requires you to configure distinct mobile app channels? (Choose two)",
+    "options": [
+        "A. CSRs can create other case type instances on the mobile app.",
+        "B. Mobile app color palettes are different for users and CSRs.",
+        "C. The mobile app customizes currency units and date/time format according to the location of the users.",
+        "D. The mobile app supports all mobile phone operating systems."
+    ],
+    "answer": "A, B",
+    "explanation": "Separate app channels are required to accommodate different functionalities (e.g., case type creation) and distinct branding elements for users and CSRs."
+},
+{
+    "question": "All managers must be able to view the Employee vacation requests report in their Manager portal dashboards. Which configuration fulfills this requirement?",
+    "options": [
+        "A. Create a new landing page on the portal with the new report saved in a public category.",
+        "B. Add a report widget to the portal dashboard, and then click Publish to default.",
+        "C. Add a report widget to the portal dashboard, and then click Publish.",
+        "D. Add the report to a public category, and then add the out-of-the-box Reports landing page to the portal."
+    ],
+    "answer": "D",
+    "explanation": "Adding the report to a public category and integrating it into the Reports landing page ensures broad accessibility for all managers within the portal."
+},
+{
+    "question": "An accident claim case creates a vehicle claim case for each vehicle involved in an accident. Which two configurations prevent the accident claim case from resolving before all vehicle claims are resolved? (Choose Two)",
+    "options": [
+        "A. Add each vehicle claim as a child case of the accident claim.",
+        "B. Add a manual approval step to the accident claim case.",
+        "C. Add an optional process to pause the accident case until the vehicle claims are paid.",
+        "D. Add a wait step to the accident claim case to wait until all vehicle claims have a status of Resolved."
+    ],
+    "answer": "A, D",
+    "explanation": "Treating vehicle claims as child cases and adding a wait step in the accident claim case ensures that the parent case only resolves once all related vehicle claims are settled."
+},
+{
+    "question": "An airline has the following requirement: A passenger requiring a service animal must document the type of animal, the size of the animal, and any relevant medical information the crew may need during the flight. The application prompts the passenger for this information when the passenger declares travel with a service animal. Which case life cycle configuration meets this requirement?",
+    "options": [
+        "A. Add a process to the case life cycle for service animal accommodation and apply a condition to determine when to run the process.",
+        "B. Apply an optional action to the appropriate stage to allow the passenger to provide the information as needed.",
+        "C. Configure a stage in the case life cycle for service animal accommodation and apply a stage validation condition.",
+        "D. Create a child case for service animal accommodation to automatically resolve unless the passenger requires the accommodation."
+    ],
+    "answer": "A",
+    "explanation": "Adding a conditional process ensures that service animal information is requested only when relevant, keeping the case life cycle streamlined."
+},
+{
+    "question": "An application allows consultants to enter hours worked on a project on a weekly basis. Consultant hours need approval by the manager and the project supervisor. The approvals can occur in any order. Which approval configuration meets this requirement?",
+    "options": [
+        "A. Configure a parallel process for each of the required approvals",
+        "B. Add the manager approval to an alternate stage in the case life cycle",
+        "C. Add an optional action for each approval in the appropriate stage",
+        "D. Configure a single cascading approval based on an authority matrix"
+    ],
+    "answer": "A",
+    "explanation": "Parallel processes allow both approvals to proceed independently, accommodating the requirement that they can occur in any order."
+},
+{
+    "question": "An application must validate postal codes for Canadian customers to match the pattern A1A 1A1, where A represents a letter, and 1 represents a number. Which two distinct configurations ensure that a user provides a valid postal code? (Choose Two)",
+    "options": [
+        "A. Configure a drop-down control to select the postal code based on the specified city and province.",
+        "B. Configure an edit validate rule to test that the entered postal code conforms to the required pattern.",
+        "C. Configure the postal code field as a required field.",
+        "D. Configure a validate rule to test that the entered postal code conforms to the required pattern."
+    ],
+    "answer": "B, D",
+    "explanation": "An edit validate rule and a validate rule both enforce the required pattern for postal codes, ensuring that data entered adheres to the specified format."
+},
+{
+    "question": "An application provides information on the history of a customer's transaction dispute cases. The Customer Case History feature displays a list of previous cases for each customer. Which two configurations achieve the required behavior? (Choose Two)",
+    "options": [
+        "A. Display the Customer Case History in an embedded data field on the dispute case.",
+        "B. Configure a data page to source Customer Case History data for the dispute case.",
+        "C. Create a Customer Case History view and add it to the dispute case type.",
+        "D. Create a page list property for the Customer Case History data."
+    ],
+    "answer": "B, C",
+    "explanation": "Sourcing Customer Case History data via a data page and creating a dedicated view ensures that the history is accurately and efficiently displayed in each dispute case."
+},
+{
+    "question": "An application references a data element found on a data page. The data page's refresh strategy is set to reload if older than 1 hour. How can you ensure that the data element always contains the most current information?",
+    "options": [
+        "A. Set the refresh strategy to reload if older than 0 seconds.",
+        "B. Select the Reload once per interaction option.",
+        "C. Select the Reload on each interaction option.",
+        "D. Set the refresh strategy to reload every 10 minutes."
+    ],
+    "answer": "C",
+    "explanation": "Reloading the data page on each interaction guarantees that the data element always reflects the most up-to-date information."
+}
+
+  ,
+{
+    "question": "An on-demand transportation application has a Conversation preference data type. When customers use the application to request a ride, they can specify their conversation preference: whether they would like to talk to their driver or if they would prefer silence. Company stakeholders are interested in analyzing the conversation preference data. How is the Conversation preference data type sourced?",
+    "options": [
+        "A. Local system of record",
+        "B. No system of record",
+        "C. External system of record"
+    ],
+    "answer": "B",
+    "explanation": "For an on-demand transportation application collecting conversation preferences from customers, the nature of the data—preferences stated during the booking process—suggests it is generated dynamically rather than stored in a pre-existing database. The data is generated by user input within the application itself and used for analysis without necessitating a traditional system of record for storage."
+},
+{
+    "question": "An online retailer allows customers to select a courier service for deliveries. The list of available courier services is drawn from a data type sourced in the Pega database. The Fulfillment department wants to allow local warehouse managers to add courier services to mitigate increases in delivery times and remove courier services that fail to meet delivery metrics. Which two options are required to allow local warehouse managers to update courier service records in production? (Choose two.)",
+    "options": [
+        "A. Create an access group for local warehouse managers.",
+        "B. Delegate the records for the courier service data type.",
+        "C. Define an approval process for adding and removing courier services.",
+        "D. Enable rule checkout for the local warehouse managers."
+    ],
+    "answer": "B, C",
+    "explanation": "To enable local warehouse managers to dynamically update the list of courier services based on performance and delivery metrics directly in the production environment, specific functionalities need to be leveraged within Pega. Delegation allows users to manage data types directly, and an approval process ensures data integrity."
+},
+{
+    "question": "An online sales application supports both laptop and mobile devices. You are configuring the application skin and you notice the responsive layout in the mobile device is not displaying views as stakeholders require. Which two options allow you to resolve this situation without negatively impacting the laptop users? (Choose two.)",
+    "options": [
+        "A. Use the same application skin in all portals.",
+        "B. Update the process to give mobile users a separate portal.",
+        "C. Do not use a skin for the mobile application version.",
+        "D. Adjust the responsive behavior in the skin for optimal viewing in the mobile portal."
+    ],
+    "answer": "A, D",
+    "explanation": "Using the same application skin across all portals ensures consistency in branding and design, and adjusting the responsive behavior in the skin for mobile devices helps meet the specific display requirements without affecting laptop users."
+},
+{
+    "question": "An online shopping application allows customers to select the item quantity of different goods and add items to the shopping cart. In the shopping cart, the application displays the price for each item type, indicates the quantity of each item type, calculates the total item prices, and calculates the total cost for all items in the shopping cart. The application pulls the price of each item type from a data page that references an external inventory management system. Select two unit tests useful in developing the shopping cart page. (Choose Two)",
+    "options": [
+        "A. Verify the data page has the correct item prices.",
+        "B. Verify the data transform copies the correct value from the data page to the shopping cart page.",
+        "C. Verify the price fields are displayed in the correct format.",
+        "D. Verify the order total cost property is accurately calculated."
+    ],
+    "answer": "A, D",
+    "explanation": "Unit tests focusing on verifying the accuracy of item prices from the data page and ensuring the correct calculation of the total cost are crucial for ensuring the correctness of the shopping cart functionality."
+},
+{
+    "question": "An order form provides four options from which customers select one option. According to best practice, which of the following two UI control types can be used to minimize clutter on the order form? (Choose Two)",
+    "options": [
+        "A. Dropdown",
+        "B. Checkbox",
+        "C. Radio buttons",
+        "D. Autocomplete"
+    ],
+    "answer": "A, C",
+    "explanation": "Dropdowns and radio buttons are ideal for minimizing clutter on a form with a small number of options. Dropdowns save space by showing options in a collapsible list, while radio buttons allow all options to be visible simultaneously."
+},
+{
+    "question": "An order fulfillment case type allows a customer to update user profile information during the order placement stage. The user profile consists of the following three pages: Account ID and password, Customer contact information, A list of open orders with the status of each order. How do you configure the case type to allow customers to update any of the user profile pages at any time during case processing?",
+    "options": [
+        "A. Add an optional process to the case workflow.",
+        "B. Add a button for each profile page to each assignment.",
+        "C. Add an alternate stage to the case life cycle.",
+        "D. Add a set of optional actions to the case workflow."
+    ],
+    "answer": "D",
+    "explanation": "Adding optional actions to the case workflow allows customers to update any of the user profile pages at any time during case processing, providing flexibility without impacting the primary case workflow."
+},
+{
+    "question": "An organization has two lines of business: selling books for children and reselling college textbooks. The division selling books for children can use the same basic user interface (UI) as the division reselling textbooks with the exception of the payment methods. How do you apply the Situational Layer Cake™ in this scenario?",
+    "options": [
+        "A. Place the UI rules in the base layer, and create a new layer for the payment rules for both lines of business.",
+        "B. Place the UI rules and generic payment method rules in the base layer, and create a new layer for the division-specific payment rules.",
+        "C. Place the UI rules in the base layer, and create a parallel base layer for the payment rules.",
+        "D. Place the UI rules in the base layer, and create a new layer for the payment rule for each division."
+    ],
+    "answer": "B",
+    "explanation": "Placing the shared UI rules and generic payment method rules in the base layer and creating a new layer for division-specific payment rules maximizes reuse and accommodates specific needs for each division."
+},
+{
+    "question": "Apartment tenants submit maintenance requests that specify their name, address, request type, and description of the request. Tenants may submit multiple maintenance requests for different request types. The company wants to identify duplicate maintenance requests from the same address. Which two configurations, when used together on the Search duplicate cases step, achieve this goal? (Choose Two)",
+    "options": [
+        "A. Configure the request type as a weighted condition.",
+        "B. Configure the tenant name as a basic condition.",
+        "C. Configure the apartment address as a basic condition.",
+        "D. Configure the apartment address as a weighted condition."
+    ],
+    "answer": "B, C",
+    "explanation": "Configuring the tenant name and apartment address as basic conditions helps to identify duplicate requests from the same address, focusing on key identifiers for detecting duplicates."
+},
+{
+    "question": "As part of the case design, after someone completes a purchase, the application should send a confirmation email. How do you design the case life cycle to send the email?",
+    "options": [
+        "A. As part of the stage configuration.",
+        "B. As an alternate stage.",
+        "C. As part of the case configuration.",
+        "D. As a separate process step."
+    ],
+    "answer": "D",
+    "explanation": "Designing the email sending as a separate process step ensures that it is executed immediately after the purchase is completed, maintaining a clear and direct linkage to the purchase action."
+},
+{
+    "question": "Based on security factors, which two options are considered strong passwords? (Choose Two)",
+    "options": [
+        "A. lLik3Chocolate&sawDustIcecre@m",
+        "B. d8073&gxn*,.ki;vnhdf($h&m",
+        "C. bluedoor",
+        "D. Pe6@5yst3m$"
+    ],
+    "answer": "A, B",
+    "explanation": "Strong passwords are characterized by a combination of uppercase and lowercase letters, numbers, and special characters, which makes them more secure. Options A and B meet these criteria."
+},
+{
+    "question": "Before development, your team creates a spreadsheet with work items to populate the backlog. All work items that describe business requirements are prioritized as Must have. You also create work items to address: A future enhancement request to group a set of existing steps into a multistep form. A drop-down list that is missing one of the required options — This work item is in progress because the missing option prevents work from being done. How do you populate the backlog directly from the spreadsheet?",
+    "options": [
+        "A. Create bugs.",
+        "B. Create feedback.",
+        "C. Import stories.",
+        "D. Create stories."
+    ],
+    "answer": "C",
+    "explanation": "Creating stories allows for clear articulation and prioritization of work items described in the spreadsheet, aligning with Agile practices for managing and tracking business requirements and enhancements."
+},
+{
+    "question": "Choose two scenarios that you configure using procedural processing.(Choose Two)",
+    "options": [
+        "A. Repetitive calculations within a case",
+        "B. Complex rule conditions with many values",
+        "C. Validation of input fields in a form",
+        "D. Creation of multiple similar records from a single request"
+    ],
+    "answer": "A, D",
+    "explanation": "Procedural processing is well-suited for repetitive calculations and creating multiple records from a single request, where complex logic or data manipulation is required."
+},
+{
+    "question": "A credit card processing application saves credit card transactions into a data page. During a security review, it was found that transactions are saved in plaintext, which could pose a significant risk. Which two configurations would improve the security of the stored credit card transactions? (Choose Two)",
+    "options": [
+        "A. Implement encryption for sensitive data.",
+        "B. Use a different data page to store credit card data.",
+        "C. Implement access controls for viewing transaction details.",
+        "D. Mask credit card numbers in user interfaces."
+    ],
+    "answer": "A, C",
+    "explanation": "Implementing encryption for sensitive data ensures that credit card transactions are securely stored, while access controls restrict who can view transaction details, enhancing overall security."
+},
+{
+    "question": "During a quality assurance test of a new application, testers find that the system is not correctly handling user input for age, specifically for ages less than 18. To fix the issue, which two configuration options should be considered? (Choose Two)",
+    "options": [
+        "A. Update validation rules for age input.",
+        "B. Adjust the UI component for age input.",
+        "C. Modify data transformation rules.",
+        "D. Configure case routing rules for age-based cases."
+    ],
+    "answer": "A, B",
+    "explanation": "Updating validation rules ensures that age input is correctly processed, and adjusting the UI component can help prevent incorrect inputs, addressing the issue identified during testing."
+}
+
+
+
+
+]
